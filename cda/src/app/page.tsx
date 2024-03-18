@@ -7,7 +7,9 @@ import Footer from "./Footer";
 export default function Home() {
   return (
     <main className="">
-      <Header />
+      <div className="sticky top-0 bg-white z-10">
+        <Header />
+      </div>
       <article className="grid lg:grid-cols-2  max-w-[88rem] m-auto">
         <div className="px-8 py-20 md:px-20 lg:py-48">
           <h1 className="text-5xl font-semibold text-transparent md:text-6xl gradient">
@@ -42,14 +44,14 @@ export default function Home() {
           .
         </p>
         <div className="grid gap-8 mt-8 lg:grid-cols-3">
-          <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
+          <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl hover:border-blue-500 hover:border-purple-500 border-2 border-transparent transition-all duration-500 ease-in-out">
             <h3 className="text-lg font-medium">Stay Alert on the Road:</h3>
             <p className="text-gray-700">
               Our AI keeps you awake and focused behind the wheel.
             </p>
             <div className="grow"></div>
           </div>
-          <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
+          <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl hover:border-blue-500 hover:border-purple-500 border-2 border-transparent transition-all duration-500 ease-in-out">
             <h3 className="text-lg font-medium">Beat Fatigue, Anytime</h3>
             <p className="text-gray-700">
               Jaagte Rah! helps students, professionals, and anyone conquer
@@ -57,7 +59,7 @@ export default function Home() {
             </p>
             <div className="grow"></div>
           </div>
-          <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
+          <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl hover:border-blue-500 hover:border-purple-500 border-2 border-transparent transition-all duration-500 ease-in-out">
             <h3 className="text-lg font-medium">
               Your Companion for Vigilance:
             </h3>
