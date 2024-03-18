@@ -6,7 +6,7 @@ import cv2
 import torch
 import yolov5
 import numpy as np
-model = yolov5.load('/Users/sreyaskv/PycharmProjects/Drowsinessdetector/venv/drowsy.pt')
+model = yolov5.load('./drowsy.pt')
 print(type(model))
 cap=cv2.VideoCapture(0)
 while cap.isOpened():

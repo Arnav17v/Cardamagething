@@ -18,10 +18,10 @@ const Footer = () => {
           </a>
           <a
             className="flex gap-2 px-4 py-2 font-semibold text-gray-600 transition duration-100 rounded-lg hover:text-gray-800"
-            href="#about"
+            href="./products"
           >
             <button className="btn-shine">
-              <span>About Us</span>
+              <span>Our Products</span>
             </button>
           </a>
           <a
