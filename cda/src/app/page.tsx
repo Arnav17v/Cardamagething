@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import componentsImg from "./assets/components.svg";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
         className="px-8 py-12 bg-black bg-opacity-5 md:px-20 md:py-24"
         id="features"
       >
-        <h2 className="text-3xl font-semibold">Features</h2>
+        <h2 className="text-3xl font-semibold">Why use Jaagte Raho!</h2>
         <p className="mt-2">
           <a
             href="https://clerk.com/docs?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
@@ -42,31 +43,33 @@ export default function Home() {
         </p>
         <div className="grid gap-8 mt-8 lg:grid-cols-3">
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
-            <h3 className="text-lg font-medium">Interactive Forums</h3>
+            <h3 className="text-lg font-medium">Stay Alert on the Road:</h3>
             <p className="text-gray-700">
-              A platform connecting patients and medical students to discuss
-              health concerns
+              Our AI keeps you awake and focused behind the wheel.
             </p>
             <div className="grow"></div>
           </div>
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
-            <h3 className="text-lg font-medium">Awareness videos</h3>
+            <h3 className="text-lg font-medium">Beat Fatigue, Anytime</h3>
             <p className="text-gray-700">
-              Verified medical students post awareness videos about various
-              medical conditions
+              Jaagte Rah! helps students, professionals, and anyone conquer
+              fatigue.
             </p>
             <div className="grow"></div>
           </div>
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
-            <h3 className="text-lg font-medium">Rating and feedback system</h3>
+            <h3 className="text-lg font-medium">
+              Your Companion for Vigilance:
+            </h3>
             <p className="text-gray-700">
-              Rate your expirience with medical students to enhance transparency
-              and trust
+              Stay sharp and aware with our app, designed for drivers, watchmen,
+              and more.
             </p>
             <div className="grow"></div>
           </div>
         </div>
       </article>
+      <Footer />
     </main>
   );
 }
