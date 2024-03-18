@@ -45,6 +45,7 @@ const Footer = () => {
           <p>Contact: 123-456-7890</p>
           <p>Email: info@example.com</p>
         </div>
+        //hihihaha
       </div>
     </footer>
   );
