@@ -227,8 +227,8 @@ button:hover span {
 }
 .flip-card {
   background-color: transparent;
-  width: 190px;
-  height: 254px;
+  width: 290px;
+  height: 354px;
   perspective: 1000px;
   font-family: sans-serif;
 }
